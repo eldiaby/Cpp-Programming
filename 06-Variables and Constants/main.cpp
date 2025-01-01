@@ -22,7 +22,7 @@ int main()
     cout << "Number of small rooms: " << small_rooms <<endl;
     cout << "Number of large rooms: " << large_rooms <<endl;
     cout << "Price per small room: $" << price_per_small_room << endl;
-    cout << "Price per large room: $" << price_per_large_room << endl;
+    cout << "Price per large room: $" << price_per_large_room << endl; 
     
     double total_cost =(price_per_small_room * small_rooms) + (price_per_large_room * large_rooms);
     cout << "Cost: $" << total_cost <<endl;
